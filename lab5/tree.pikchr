@@ -1,0 +1,57 @@
+//├───lab1
+//│   ├───1
+//│   │       page.html
+//│   │
+//│   ├───2
+//│   │       page.html
+//│   │       script.js
+//│   │
+//│   └───3
+//│       │   page.html
+//│       │
+//│       └───js
+//│               brackets.js
+//│               deepCopy.js
+//│               main.js
+//│               median.js
+//│               remainder.js
+//│               sorting.js
+
+
+N0: box "lab1" fit at (4, 0)
+
+N1: box "1" fit at (2, -1)
+N2: box "page.html" fit at (2, -2)
+
+N3: box "2" fit at (4, -1)
+N4: box "page.html" fit at (3.5, -2)
+N5: box "script.js" fit at (4.5, -2)
+
+N6: box "3" fit at (6, -1)
+N7: box "page.html" fit at (5.5, -2)
+N8: box "js" fit at (6.5, -2)
+N9: box "brackets.js" fit at (3.5, -3)
+N10: box "deepCopy.js" fit at (4.5, -3)
+N11: box "main.js" fit at (5.5, -3)
+N12: box "median.js" fit at (6.5, -3)
+N13: box "remainder.js" fit at (7.5, -3)
+N14: box "sorting.js" fit at (8.5, -3)
+
+arrow from N0.s to N1.n
+arrow from N0.s to N3.n
+arrow from N0.s to N6.n
+
+arrow from N1.s to N2.n
+
+arrow from N3.s to N4.n
+arrow from N3.s to N5.n
+
+arrow from N6.s to N7.n
+arrow from N6.s to N8.n
+
+arrow from N8.s to N9.n
+arrow from N8.s to N10.n
+arrow from N8.s to N11.n
+arrow from N8.s to N12.n
+arrow from N8.s to N13.n
+arrow from N8.s to N14.n
