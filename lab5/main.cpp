@@ -128,7 +128,7 @@ size_t getFileSize(const std::string& filename) {
 int main() {
     using namespace std::chrono;
 
-    const size_t TARGET_TOTAL_BYTES = 100 * 1024 * 1024; // можно изменить на 200 для полной версии
+    const size_t TARGET_TOTAL_BYTES = 100 * 1024 * 1024; 
     size_t totalBytes = 0;
     size_t totalPikchrBytes = 0;
     size_t totalHtmlBytes = 0;
